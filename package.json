@@ -1,0 +1,17 @@
+{
+  "name": "jarvis",
+  "version": "1.0.0",
+  "description": "Джарвис — голосовой ассистент на сцене «Центра управления AI-аудитом»: две визуальные версии (v4 сфера, v5 мозг)",
+  "main": "jarvis-server.js",
+  "scripts": {
+    "start": "node jarvis-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0"
+  }
+}
